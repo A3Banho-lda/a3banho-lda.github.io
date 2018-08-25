@@ -1,0 +1,33 @@
+.container-fluid {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    min-width: 350px;
+    margin: auto;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container, .jumbotron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.marcas {
+    max-width: 1200px;
+}

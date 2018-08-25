@@ -1,5 +1,6 @@
 .center-cropped {
     width: 50%;
+    min-width: 470px;
     height: 50%;
     display:block;
     margin-left: auto;
@@ -8,5 +9,22 @@
 }
 
 #images{
-    text-align:center;
+    text-align: center;
+}
+
+.lead {
+    text-align: justify;
+    width: 93.5%;
+}
+
+@media (max-width: 990px) {
+    .center-cropped {
+        width: 93.5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .center-cropped {
+        min-width: 350px;
+    }
 }
